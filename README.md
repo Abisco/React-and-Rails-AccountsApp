@@ -1,24 +1,8 @@
-# README
+# React-Rails Accounts app
+URL: http://react-rails-accountsapp.herokuapp.com/records
+Basic application for adding records, getting totals for Debit, Credit and Balance
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I'm making this mostly to learn about interaction between rails and react for future projects
 
-Things you may want to cover:
+Using this tutorial: https://www.airpair.com/reactjs/posts/reactjs-a-guide-for-rails-developers#initializing-our-react-js-on-rails-project
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
