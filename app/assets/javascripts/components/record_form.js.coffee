@@ -28,28 +28,43 @@
         onSubmit: @handleSubmit
         React.DOM.div
           className: 'form-group'
+          React.DOM.label
+            className: 'sr-only'
+            htmlFor: 'date'
+            'Date'
           React.DOM.input
             type: 'text'
             className: 'form-control'
             placeholder: 'Date'
+            id: 'date'
             name: 'date'
             value: @state.date
             onChange: @handleChange
         React.DOM.div
           className: 'form-group'
+          React.DOM.label
+            className: 'sr-only'
+            htmlFor: 'title'
+            'Title'
           React.DOM.input
             type: 'text'
             className: 'form-control'
             placeholder: 'Title'
+            id: 'title'
             name: 'title'
             value: @state.title
             onChange: @handleChange
         React.DOM.div
           className: 'form-group'
+          React.DOM.label
+            className: 'sr-only'
+            htmlFor: 'amount'
+            'Amount'
           React.DOM.input
             type: 'number'
             className: 'form-control'
             placeholder: 'Amount'
+            id: 'amount'
             name: 'amount'
             value: @state.amount
             onChange: @handleChange
